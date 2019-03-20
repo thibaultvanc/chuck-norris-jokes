@@ -1,0 +1,26 @@
+{
+    "name": "thibaultvanc/chuck-norris-jokes",
+    "description": "chuck Norris jokes",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Van Campenhoudt",
+            "email": "info@organit.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4":{
+            "Thibaultvanc\\ChuckNorrisJokes\\":"src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4":{
+            "Thibaultvanc\\ChuckNorrisJokes\\Tests\\":"tests"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
